@@ -1,0 +1,20 @@
+{
+  "name": "multica-local",
+  "interface": {
+    "displayName": "Multica Local"
+  },
+  "plugins": [
+    {
+      "name": "multica-codex-session-track",
+      "source": {
+        "source": "local",
+        "path": "./plugins/multica-codex-session-track"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

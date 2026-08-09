@@ -1,0 +1,38 @@
+{
+  "description": "Sync Codex session lifecycle into Multica.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/opt/homebrew/bin/python3 \"/Users/dtsy/Projects/multica/scripts/codex-session-track/track.py\" hook SessionStart",
+            "timeout": 20
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/opt/homebrew/bin/python3 \"/Users/dtsy/Projects/multica/scripts/codex-session-track/track.py\" hook Stop",
+            "timeout": 20
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "/opt/homebrew/bin/python3 \"/Users/dtsy/Projects/multica/scripts/codex-session-track/track.py\" hook SessionEnd",
+            "timeout": 20
+          }
+        ]
+      }
+    ]
+  }
+}

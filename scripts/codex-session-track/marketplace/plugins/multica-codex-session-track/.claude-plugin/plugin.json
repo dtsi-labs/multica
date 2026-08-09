@@ -1,0 +1,20 @@
+{
+  "name": "multica-codex-session-track",
+  "version": "0.1.0",
+  "description": "Bridge Codex sessions into the Multica Sessions project.",
+  "author": {
+    "name": "David Ta"
+  },
+  "license": "UNLICENSED",
+  "interface": {
+    "displayName": "Multica Codex Session Track",
+    "shortDescription": "Keep Codex sessions visible in Multica",
+    "longDescription": "Adds Codex hook callbacks that sync local Codex sessions into the Multica Sessions project, using the same tracker as the fallback LaunchAgent watcher.",
+    "developerName": "David Ta",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Track my Codex sessions in Multica"
+    ]
+  }
+}
