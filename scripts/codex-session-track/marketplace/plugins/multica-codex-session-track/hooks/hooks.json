@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "/opt/homebrew/bin/python3 \"/Users/dtsy/Projects/multica/scripts/codex-session-track/track.py\" hook SessionStart",
+            "command": "/opt/homebrew/bin/python3 \"${PLUGIN_ROOT}/../../../track.py\" hook SessionStart",
             "timeout": 20
           }
         ]
@@ -17,7 +17,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "/opt/homebrew/bin/python3 \"/Users/dtsy/Projects/multica/scripts/codex-session-track/track.py\" hook Stop",
+            "command": "/opt/homebrew/bin/python3 \"${PLUGIN_ROOT}/../../../track.py\" hook Stop",
             "timeout": 20
           }
         ]
@@ -28,7 +28,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "/opt/homebrew/bin/python3 \"/Users/dtsy/Projects/multica/scripts/codex-session-track/track.py\" hook SessionEnd",
+            "command": "/opt/homebrew/bin/python3 \"${PLUGIN_ROOT}/../../../track.py\" hook SessionEnd",
             "timeout": 20
           }
         ]
